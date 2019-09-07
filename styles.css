@@ -1,0 +1,86 @@
+*{
+	margin: 0px;
+	padding-top: 0px;
+}
+body{
+	background-color: yellow;
+}
+.nav-list{
+	width: auto;
+	height: 100px;
+	display: flex;
+	box-shadow: 0.5px 4px 5px grey;
+	background-color: yellow;
+}
+.pics{
+	width: 7%;
+	height: 75px;
+	margin-top: 1.5%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	border-radius: 50px;
+}
+.links{
+	font-family: cursive;
+	font-size: 1.3em;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul{
+	list-style-type: disc;
+
+}
+.nav-ll{
+	list-style-type: none;
+	display: flex;
+	margin: 10px;
+	padding: 20px;
+}
+li{
+	margin: 30px; 
+	margin-top: 0px;
+	cursor: pointer;
+	color: purple;
+}
+li:hover{
+	background-color: cyan;
+}
+
+header{
+	margin-top: 10px;
+	width: auto;
+	height:280px;
+	background-color: yellow;
+	box-shadow: 0px 0px 5px 2px grey;
+}
+header h1{
+	font-family: cursive;
+	text-align: center;
+	font-size: 3em;
+	color: purple;
+}
+header p{
+	text-align: justify;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1em;
+	font-family: cursive;
+	color: purple;
+	font-weight: bold;
+}
+footer{
+	width: auto;
+	height: 104px;
+	background-color: purple;
+}
+footer p{
+	color: yellow;
+	font-family: cursive;
+	font-weight: bold;	
+}
+address{
+	font-family: cursive;
+	color: yellow;
+	font-weight: bold;
+}
